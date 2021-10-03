@@ -24,7 +24,7 @@ public class ExemploOrdenacao {
         System.out.println(meusGatos);
         System.out.println("--\tOrdem idade\t--");
         Collections.sort(meusGatos,new ComparatorIDade());
-       // meusGatos.sort(new ComparatorIDade());
+       //meusGatos.sort(new ComparatorIDade());
         System.out.println(meusGatos);
         System.out.println("--\tOrdem cor\t--");
         Collections.sort(meusGatos, new ComparatorCor());
